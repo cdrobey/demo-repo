@@ -18,7 +18,7 @@ profile::base::windows::time::timezone: 'Mountain Standard Time'
 
 profile::base::windows::motd::content: |
   Welcome to %{facts.fqdn}
-  Access  to  and  use of this server is  restricted to those
+  Access  to  and  use of this server is  restricted to the
   activities expressly permitted by the system administration
   staff. If you're not sure if it's allowed, then Git out of Hear.
         Release: %{facts.operatingsystem} %{facts.operatingsystemrelease}
